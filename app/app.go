@@ -110,9 +110,9 @@ import (
 	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
 	"github.com/spf13/cast"
 
-	restakingmodule "github.com/lightmos/empyrean/x/restaking"
-	restakingmodulekeeper "github.com/lightmos/empyrean/x/restaking/keeper"
-	restakingmoduletypes "github.com/lightmos/empyrean/x/restaking/types"
+	restakingmodule "github.com/lightmos/restaking/x/restaking"
+	restakingmodulekeeper "github.com/lightmos/restaking/x/restaking/keeper"
+	restakingmoduletypes "github.com/lightmos/restaking/x/restaking/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 
 	appparams "github.com/lightmos/empyrean/app/params"
